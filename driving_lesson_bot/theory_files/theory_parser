@@ -1,0 +1,60 @@
+import urllib.request
+from bs4 import BeautifulSoup
+import requests
+from lxml import html
+import fileinput
+import time
+
+'''
+//tr[1]/td[2]/p
+'''
+
+class Main:
+    @staticmethod
+    def main_to_text(num, new_nums_file, new_text_file):
+        texts = []
+        nums = []
+
+        nums, texts, p2 = Main.parse_text(num)
+
+        for num, text in zip(nums, texts):
+            Main.save(text.text + '\n' ++ '\n', f'{new_text_file}.txt')
+            Main.save(num.text + '\n', f'{new_nums_file}.txt')
+        Main.edit(new_nums_file)
+
+
+
+    @staticmethod
+    def get_html(url):
+        response = urllib.request.urlopen(url)
+        return response.read()
+
+    @staticmethod
+    def parse_text(num):
+        response = requests.get(f'https://vodiy.ua/ru/pdr/{num}/')
+        parsed_body = html.fromstring(response.text)
+        nums = parsed_body.xpath("//span[@class='number']/a")
+        text = parsed_body.xpath("//span/p[1]")
+        p2 = parsed_body.xpath("//table/tbody/tr[1]/td[2]/p")
+        return nums, text, p2
+
+    @staticmethod
+    def edit(filename):
+        with fileinput.FileInput(f'{filename}.txt', inplace=True) as file:
+            for line in filename:
+                print(line.replace('                                        ', ''), end='')
+
+        clean_lines = []
+        with open(f'{filename}.txt', "r") as f:
+            lines = f.readlines()
+            clean_lines = [l.strip() for l in lines if l.strip()]
+
+        with open(f'{filename}.txt', "w") as f:
+            f.writelines('\n'.join(clean_lines))
+
+    @staticmethod
+    def save(projects, path):
+        with open(path, 'a') as file:
+            file.write(str(projects))
+
+Main.main_to_text(1,'1.1_Nums','1.1_Text')

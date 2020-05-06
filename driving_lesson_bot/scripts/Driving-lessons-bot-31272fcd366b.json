@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "driving-lessons-bot",
+  "private_key_id": "31272fcd366b07fa401bf69e948b7dbf5f2e2822",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9aQp9dtRspKK5\nM6ejrrcS0jlh3RSsf667JIhlujjIBiLwT4ESKOpLidNqGTpzZOpd7SEN6jUI5dSP\nI3UF4PZrWjBr5Av+8zedzRl/1TTDMxOjwfra2A7JoiTuCoTNqx2mXIC/8bssVXfo\nCGfeeq3lAIDqmCpzuSPlJw4GxVcVxQ1HTNI8TKoKWYdLY36KVr0ZyU5DS8AghBzf\nvizynLTE6CTfDEqtJhgcWzmh6ZAWvfHpiAietZjK6VRLkVIeSDS2X4NJDZjKGPQ3\nVlxTmxbAFNLXAjtni7B+COdanDK+F2yLDM7/bLEaZBxxnKQdzMNX9jXEgQw0NUks\n5sucMYdZAgMBAAECggEACnHmcDDDWhJiHtBoaDBUTCdnnqvwXerUmeFT3Dg+tVkR\nSCs6NOQot22sSOeHP6HLAs72yaumrQzvgc00wNQ9AoKAtRJoTvDemkcbJt98/16r\nsJYb3UGY3ymf27icxjKveeMT/oG4DqPP7u23vJ8LQ9uZQFaP0L3e6t4SefEb8klJ\nHkKce6/ckibkePismuFe5KsgvorhOpbO4IyZy+oZZmQMUfMkkOrzsLHCkwSjZZAu\nwWgDB2r+trHVLZYRTH7QKjZdF8Z5+5VDpDFs7DHzrJrbkK9d7Hges7AdBwLyzN0Z\n7c9xS0nnz4j0vsRijjbunNPfxRt2IZGWT6sXcPYx4QKBgQDz8zvQY8QOkXv+833H\nUcslrs2gjSLm6ylRAAwySlAHRjEaFzaKsAPpXzJPf4xKFn/PY1J4lsIbqub92Y+z\nW/dbmPwBk+BZ061NBvkkC4tLkh7LFKVlKR3XHLXk05oWMo0UsmzH82dNKyD2nZCY\nv3U3b3f8L7QawhOr7nX4KMKD1QKBgQDGxCXHvU7tyD1CFYORSNbVwCBFdwA0e3q1\n0ZCpcXrpPtxAVR6ITsU0AXv8Ws4n884xJUBwwxjhc0XshDGVgrKN9NVRY1I9QiBW\nwhF9BNj55EEaokdmwpr1lhwh5hJGfjrzenVOZcFzsyOtSSEPSvgkpZb5njSPDZCN\nJWg/QkyrdQKBgQCLXDWcW5IB/IyIXhNJjWlvEog3oskAf/DvbAaLqDZFoYylagNn\ngRwK8q4sCiJbpLTJBeV0LDOhWKVy+RmFjhEmC6RTRmYRCsLi0Qv80nd16Xib7SR7\nQNziKW2j1lodOi2sWC2aoGswA2ZmXCbhi+Zrj8tMjvflnV9dhfFwneBZLQKBgQC9\nMDexnWvCAiTkgKvBHm5196//zlvgmGNdKgIidcQCvHVRunMcVLV5YaxMr3WoK3Rn\n7MggTGKjPGAi1lSHtWYUniRomjvN2OIFEiUpNPL9L5gULL//fF2YQe+3CFD+zel4\nlGeRXmM6qBjeOEwCTV5RK1e/cikevE+JOUC3bXiifQKBgBteaRWQUZlu3qF+YNJY\nM89nL49glSn5so6kvBTwa4YZu1PNvyUruB6Dvrsvi5Mx17zGZCIPUgKxFPxGZekk\n5nwJJO71Wwsu0MwV2pzsBJpQ4YTeWxfQlKZINyWeYg9gP18vpEb5qZIUAyAxFbTx\nYjAjuF3sKl25gGcJOFUfnxLZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "driving-bot@driving-lessons-bot.iam.gserviceaccount.com",
+  "client_id": "116260259796428599875",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/driving-bot%40driving-lessons-bot.iam.gserviceaccount.com"
+}
